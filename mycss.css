@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "centabel";
+    src: url(centabel.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+  overflow: auto;
+  font-family: centabel;
+}
+.myheader{
+  width: 100%;
+  background-color: #194775;
+}
+.mytitle{
+    background-color: #AAE2FF;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.mytitle p {
+      font-size: 24px;
+      line-height: 2;
+}
+.abouttitle{
+  padding-top: 50px;
+}
+.linkstitle{
+padding-top: 50px;
+font-size: 38px;
+}
+.contacttitle{
+padding-top: 50px;
+font-size: 38px;
+}
+.mynavbar{
+  width: 100%;
+  height: 80px;
+}
+.mymenu{
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+
+}
+.mymenuitem{
+  display: inline-block;
+  width: 24%;
+  padding-top:26px;
+}
+.mymenuitem a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+.mymenuitem a:hover{
+  color: #AAE2FF;
+  text-decoration: underline;
+  transition: all 0.4s ease-in-out;
+    font-size: 32px;
+    line-height: 23px;
+}
+.mycurrentmenuitem{}
+.mycontainer{
+      padding: 25px 20px 25px 20px;
+  width: 100%;
+  margin: auto;
+  background-color: #80E6B2;
+  overflow: auto;
+
+}
+.mycontent{
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  width: 100%;
+  margin: auto;
+  padding: 15px 15px 15px 15px;
+    min-height: 600px;
+}
+.mycontenthome{
+  float: left;
+  width: 50%;
+
+}
+.shortpost{
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  min-height: 200px;
+  padding: 10px;
+    min-height: 300px;
+}
+.mycontenthome:nth-child(1){
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.mycontenthome:nth-child(2){
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.mycontenthome:nth-child(3){
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.mycontenthome:nth-child(4){
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.topmargin{
+  margin-top: 15px;
+}
+.column{
+  width: 49%;
+  margin: auto;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.myfooter{
+  width: 100%;
+  background-color: #194775;
+  color: #FFFFFF;
+  height: 80px;
+  padding-top: 25px;
+  padding-right: 30px;
+  text-align: right;
+  font-size: 26px;
+}
+.myfooter a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.myfooter a:hover{
+  color: #AAE2FF;
+  text-decoration: underline;
+}
+.mypostheader {
+  margin: 10px 0 10px 0;
+}
+.myposttitle{
+  color: #194775;
+  font-size: 38px;
+}
+.mypostinfo{
+  font-size: 14px;
+  color: #308330;
+}
+.mypostauthor{
+  display: inline-block;
+}
+.mypostdate{
+  display: inline-block;
+    margin-left: 15px;
+}
+.mypostdate::before{
+  content: " | "
+}
+.mypostcontent p{
+  margin-bottom: 10px;
+  color: #194775;
+  font-size: 18px;
+  line-height: 1.5;
+
+}
