@@ -188,6 +188,11 @@ overflow: hidden;
 text-overflow: ellipsis;
 max-height: 140px;
 }
+.titleexcerpt {
+overflow: hidden;
+text-overflow: ellipsis;
+max-height: 43px;
+}
 .excerpt::after{
   content: "..."
 }

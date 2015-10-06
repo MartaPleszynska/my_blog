@@ -34,6 +34,10 @@
   .mypostdatesmaller:before{
     display:none;
   }
+  .titleexcerpt {
+    max-height: 32px;
+}
+
 }
 @media(max-width:640px) {
   .mynavbar {
