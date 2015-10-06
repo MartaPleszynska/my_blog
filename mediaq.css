@@ -4,6 +4,13 @@
     padding-top: 30px;
   }
 }
+
+@media(max-width:1280px)  {
+  .mycontent {
+    min-height: 400px;
+  }
+}
+
 @media(max-width:960px)  {
   .contacttitle{
       padding-top: 30px;
@@ -36,8 +43,10 @@
   }
   .titleexcerpt {
     max-height: 32px;
-}
-
+  }
+  .mycontent {
+    min-height: 200px;
+  }
 }
 @media(max-width:640px) {
   .mynavbar {
