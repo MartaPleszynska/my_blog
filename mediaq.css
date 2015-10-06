@@ -1,11 +1,19 @@
 
-@media(max-width:1710px)  {
+@media(max-width:1720px)  {
   .linkstitle{
     padding-top: 30px;
   }
 }
-@media(max-width:720px)  {
+@media(max-width:960px)  {
+  .contacttitle{
+      padding-top: 30px;
+  }
   .linkstitle{
-    font-size: 24px;
+    padding-top: 15px;
+  }
+}
+@media(max-width:680px)  {
+  .mytitle{
+    font-size: ;
   }
 }

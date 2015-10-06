@@ -86,14 +86,15 @@ font-size: 38px;
 .mycontenthome{
   float: left;
   width: 50%;
-
 }
+
 .shortpost{
   border-radius: 5px;
   background-color: #FFFFFF;
-  min-height: 200px;
   padding: 10px;
-    min-height: 300px;
+  min-height: 300px;
+  max-height: 300px;
+  position: relative;
 }
 .mycontenthome:nth-child(1){
   padding-right: 10px;
@@ -127,6 +128,7 @@ font-size: 38px;
   color: #FFFFFF;
   height: 80px;
   padding-top: 25px;
+  padding-left: 30px;
   padding-right: 30px;
   text-align: right;
   font-size: 26px;
@@ -166,5 +168,37 @@ font-size: 38px;
   color: #194775;
   font-size: 18px;
   line-height: 1.5;
+}
+.readmorebtn {
+  display: block;
+  height: 40px;
+  width: 120px;
+  background-color: #194775;
+  color: #FFFFFF;
+  border-radius: 6px;
+  border: none;
+  font-family: centabel;
+  font-size: 18px;
+  float: right;
+  position: absolute;
+  top: 250px;
+  right: 15px;
+}
+.readmorebtn:hover{
+  color: #AAE2FF;
+}
+.excerpt{
+overflow: hidden;
+text-overflow: ellipsis;
+max-height: 80px;
 
+}
+.excerpt::after{
+  content: "..."
+}
+.backktotop{
+  float: right;
+}
+.archiveslink {
+  float: left;
 }
