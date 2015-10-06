@@ -19,7 +19,7 @@ body{
     width: 100%;
     height: 150px;
     text-align: center;
-    padding-top: 30px;
+    padding: 30px 10px 0px 10px;
     font-size: 48px;
     color: #FFFFFF;
 }
@@ -91,7 +91,7 @@ font-size: 38px;
 .shortpost{
   border-radius: 5px;
   background-color: #FFFFFF;
-  padding: 10px;
+  padding: 10px 10px 60px 10px;
   min-height: 300px;
   max-height: 300px;
   position: relative;
@@ -141,9 +141,6 @@ font-size: 38px;
   color: #AAE2FF;
   text-decoration: underline;
 }
-.mypostheader {
-  margin: 10px 0 10px 0;
-}
 .myposttitle{
   color: #194775;
   font-size: 38px;
@@ -164,7 +161,6 @@ font-size: 38px;
   content: " | "
 }
 .mypostcontent p{
-  margin-bottom: 10px;
   color: #194775;
   font-size: 18px;
   line-height: 1.5;
@@ -187,11 +183,10 @@ font-size: 38px;
 .readmorebtn:hover{
   color: #AAE2FF;
 }
-.excerpt{
+.excerpt {
 overflow: hidden;
 text-overflow: ellipsis;
-max-height: 80px;
-
+max-height: 140px;
 }
 .excerpt::after{
   content: "..."

@@ -13,7 +13,57 @@
   }
 }
 @media(max-width:680px)  {
-  .mytitle{
-    font-size: ;
+  .mymenuitem a {
+    font-size: 22px;
   }
+  .mymenuitem a:hover {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  .myposttitlesmaller {
+    font-size: 28px;
+  }
+  .mypostinfo {
+    display: block;
+    padding-bottom: 8px;
+  }
+  .mypostdatesmaller{
+    display:block;
+    margin-left: 0;
+  }
+  .mypostdatesmaller:before{
+    display:none;
+  }
+}
+@media(max-width:640px) {
+  .mynavbar {
+    width: 100%;
+    height: 50px;
+  }
+  .mymenuitem {
+    padding-top: 15px;
+  }
+  .mytitle {
+    height: 100px;
+    padding-top: 10px;
+    font-size: 40px;
+  }
+  .mytitle p {
+    font-size: 20px;
+  }
+  .abouttitle {
+    padding-top: 30px;
+  }
+  .linkstitle {
+    font-size: 26px;
+    padding-top: 18px;
+  }
+  .contacttitle {
+    font-size: 26px;
+    padding-top: 18px;
+  }
+  .myfooter {
+    height: 50px;
+    padding-top: 15px;
+    font-size: 20px;
 }
