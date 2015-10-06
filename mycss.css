@@ -64,7 +64,7 @@ font-size: 38px;
   text-decoration: underline;
   transition: all 0.4s ease-in-out;
     font-size: 32px;
-    line-height: 23px;
+    line-height: 20px;
 }
 .mycurrentmenuitem{}
 .mycontainer{
@@ -147,8 +147,9 @@ font-size: 38px;
   font-size: 38px;
 }
 .mypostinfo{
-  font-size: 14px;
+  font-size: 18px;
   color: #308330;
+  padding: 15px 0 15px 0;
 }
 .mypostauthor{
   display: inline-block;
