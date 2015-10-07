@@ -2,14 +2,14 @@
 
   <div class="mycontent">
     <div class="mypostheader">
-      <h1 class="myposttitle">Here goes a post title</h1>
+      <h1 class="myposttitle"><?php echo $myposttitle ?></h1>
       <div class="mypostinfo">
-        <p class="mypostauthor">Author Name</b>
-        <p class="mypostdate">Date</b>
+        <p class="mypostauthor"><?php echo $mypostauthor ?></b>
+        <p class="mypostdate"><?php echo $mypostdate ?></b>
       </div>
     </div>
 
     <article class="mypostcontent">
-      Here goes post...
+      <?php echo nl2br($mypostcontent); ?>
     </article>
   </div>

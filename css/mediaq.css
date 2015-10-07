@@ -20,6 +20,9 @@
   }
 }
 @media(max-width:680px)  {
+  img {
+    display: none;
+  }
   .mymenuitem a {
     font-size: 22px;
   }
