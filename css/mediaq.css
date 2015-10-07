@@ -1,0 +1,146 @@
+
+@media(max-width:1720px)  {
+  .linkstitle{
+    padding-top: 30px;
+  }
+}
+
+@media(max-width:1280px)  {
+  .mycontent {
+    min-height: 400px;
+  }
+}
+
+@media(max-width:960px)  {
+  .contacttitle{
+      padding-top: 30px;
+  }
+  .linkstitle{
+    padding-top: 15px;
+  }
+}
+@media(max-width:680px)  {
+  .mymenuitem a {
+    font-size: 22px;
+  }
+  .mymenuitem a:hover {
+    font-size: 28px;
+    line-height: 20px;
+  }
+  .myposttitlesmaller {
+    font-size: 28px;
+  }
+  .mypostinfo {
+    display: block;
+    padding-bottom: 8px;
+  }
+  .mypostdatesmaller{
+    display:block;
+    margin-left: 0;
+  }
+  .mypostdatesmaller:before{
+    display:none;
+  }
+  .titleexcerpt {
+    max-height: 32px;
+  }
+  .mycontent {
+    min-height: 200px;
+  }
+}
+@media(max-width:640px) {
+  .mynavbar {
+    height: 50px;
+  }
+  .mymenuitem {
+    padding-top: 15px;
+  }
+  .mytitle {
+    height: 100px;
+    padding-top: 10px;
+    font-size: 40px;
+  }
+  .mytitle p {
+    font-size: 20px;
+  }
+  .abouttitle {
+    padding-top: 30px;
+  }
+  .linkstitle {
+    font-size: 26px;
+    padding-top: 6px;
+  }
+  .contacttitle {
+    font-size: 26px;
+    padding-top: 18px;
+  }
+  .mypostauthorsmall{
+    display: none;
+  }
+  .myfooter {
+    height: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+  }
+}
+@media (max-width:580px){
+  .abouttitle {
+    font-size: 32px;
+  }
+  .mynavbar {
+    height: 184px;
+  }
+  .mymenuitem {
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFFFFF;
+  }
+  .mymenuitem a:hover {
+    text-decoration: none;
+    font-size: 22px;
+    transition: none;
+    line-height: initial;
+  }
+  .mytitle {
+    height: 78px;
+    padding-top: 3px;
+    font-size: 26px;
+  }
+  .mytitle p {
+    font-size: 18px;
+    line-height: 1;
+  }
+  .abouttitle {
+    font-size: 24px;
+    padding-top: 14px;
+  }
+  .linkstitle {
+    font-size: 17px;
+    padding-top: 7px;
+  }
+  .contacttitle {
+    font-size: 22px;
+    padding-top: 13px;
+}
+  .mycontenthome{
+    float: none;
+    width: 100%;
+  }
+  .mycontenthome:nth-child(1) {
+    padding-right: 0px;
+  }
+  .mycontenthome:nth-child(2) {
+    padding-left: 0px;
+  }
+  .mycontenthome:nth-child(3) {
+    padding: 0px 0px 10px 0px;
+  }
+  .mycontenthome:nth-child(4) {
+    padding: 0px 0px 0px 0px;
+  }
+    .mycontent {
+      min-height: 300px;
+  }
+}
