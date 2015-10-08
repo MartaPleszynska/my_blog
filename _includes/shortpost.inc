@@ -12,5 +12,5 @@
   <span>...</span>
   <!-- use get to pass post no in variable -->
 <!-- $currentpost = $_GET['currentpost'] -->
-  <a class="readmorebtn" href="index.php?pagetitle=post">Read More</a>
+  <a class="readmorebtn" href="post.php?postno=<?php echo $postno;?>">Read More</a>
 </div>

@@ -17,8 +17,8 @@ if ($pagecontent == "contact"){
   $titleclassname = "contacttitle";
 }
 if ($pagecontent == "archives"){
-  $mytitle = "";
-  $titleclassname = "abouttitle";
+  $mytitle = "Here is a list of all posts on my blog";
+  $titleclassname = "archivestitle";
 }
 if ($pagecontent == "post"){
   $mytitlediv = "";
