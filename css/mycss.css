@@ -231,3 +231,6 @@ img {
 .halfsize{
   width: 50%;
 }
+.excerpt img {
+  display: none;
+}

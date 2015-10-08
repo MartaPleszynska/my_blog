@@ -26,16 +26,8 @@ if ($pagecontent == "post"){
 else {
   $mytitlediv = "<div class='mytitle " . $titleclassname . "'>" . $mytitle . "</div>";
 }
-
-include "_posts/2015-09-29.php";
-// $posts1 = array_reverse(glob('../_posts/*.inc');
-// $dir    = '../_posts';
-// $posts = scandir($dir);
-//
-//
-// print_r($posts);
-// echo $posts;
-// print_r($posts1);
-// echo $posts1;
-// echo "1) ".basename("../_posts/", ".inc").PHP_EOL;
+$dir = '_posts/';
+$posts = scandir($dir);
+arsort($posts);
+$index = count($posts)-1;
 ?>

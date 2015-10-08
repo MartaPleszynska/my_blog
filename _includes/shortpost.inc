@@ -10,6 +10,7 @@
     <div class="excerpt" ><?php echo $mypostcontent ?></div>
   </article>
   <span>...</span>
-  <!-- here change action to link to correct post -->
+  <!-- use get to pass post no in variable -->
+<!-- $currentpost = $_GET['currentpost'] -->
   <a class="readmorebtn" href="index.php?pagetitle=post">Read More</a>
 </div>
