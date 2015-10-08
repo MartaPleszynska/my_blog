@@ -213,10 +213,12 @@ max-height: 43px;
 .archiveslink {
   float: left;
 }
-li a {
+.archive, li a {
   text-decoration: none;
   color: #194775;
   font-size: 20px;
+  padding-left: 10px;
+  line-height: 1.5;
 }
 li a:hover {
   text-decoration: none;

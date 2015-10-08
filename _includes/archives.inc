@@ -8,7 +8,7 @@
       foreach ($posts as $value) {
         include "_posts/{$value}";
         ?>
-        <li class="archive"><?php echo $mypostdate;?><a href="href="post.php?postno=<?php echo $postno;?>"><?php echo $myposttitle;?></li>
+        <li class="archive"><?php echo $mypostdate;?><a href="post.php?postno=<?php echo $postno;?>"><?php echo $myposttitle;?></a></li>
       <?php
       }
       ?>
