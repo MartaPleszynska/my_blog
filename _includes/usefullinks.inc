@@ -1,4 +1,3 @@
-<main class="mycontainer">
   <div class="mycontent">
     <div class="myposttitle">
       About Scrum
