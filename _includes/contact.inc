@@ -1,8 +1,8 @@
 <div class="mycontent">
   <div class="myposttitle">
-    Section title
+    Here will be a form to submit a message
   </div>
   <div class="mypostcontent">
-    <p>Links list<p>
+    <p>This will be send to my email...<p>
   </div>
 </div>
