@@ -36,5 +36,5 @@ There are three ways on applying css to html:\n
 <ul>
 <li><a href=\"http://www.w3.org/TR/html\">w3 - html</a></li>
 <li><a href=\"http://www.w3schools.com/\">w3schools</a></li>
-<li><a href=\"http://html.net/\">HTML.net</a></li>";
+<li><a href=\"http://html.net/\">HTML.net</a></li></p>";
 ?>

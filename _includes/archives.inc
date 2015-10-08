@@ -1,12 +1,18 @@
 <div class="mycontent">
-  <div class="myposttitle">
-    List title
-  </div>
   <div class="mypostcontent">
     <ul class="list">
-      <li><a href="">post1</li>
-      <li><a href="">post2</a></li>
-      <li><a href="">post3</a></li>
+
+      <?php
+      unset($posts[0]);
+      unset($posts[1]);
+      foreach ($posts as $value) {
+        include "_posts/{$value}";
+        ?>
+        <li class="archive"><?php echo $mypostdate;?><a href="href="post.php?postno=<?php echo $postno;?>"><?php echo $myposttitle;?></li>
+      <?php
+      }
+      ?>
+
     </ul>
   </div>
 </div>

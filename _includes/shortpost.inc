@@ -10,7 +10,5 @@
     <div class="excerpt" ><?php echo $mypostcontent ?></div>
   </article>
   <span>...</span>
-  <!-- use get to pass post no in variable -->
-<!-- $currentpost = $_GET['currentpost'] -->
   <a class="readmorebtn" href="post.php?postno=<?php echo $postno;?>">Read More</a>
 </div>

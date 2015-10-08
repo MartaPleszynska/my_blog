@@ -54,10 +54,4 @@ inserts '>' before each list element</p>
 <li><a href=\"http://www.w3schools.com/cssref/trysel.asp\">w3schools-try it</a></li>
 <li><a href=\"http://www.w3.org/TR/css3-selectors/\">w3-css3 selectors</a></li>
 </ul></p>";
-
-// $currentpost = $_GET['currentpost'];
-//
-// if($currentpost == NULL){
-//   $currentpost = $postno;
-// }
 ?>
