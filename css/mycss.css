@@ -234,3 +234,6 @@ img {
 .excerpt img {
   display: none;
 }
+.archive a::before{
+  content: " | ";
+}
