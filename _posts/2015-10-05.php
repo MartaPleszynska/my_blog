@@ -10,7 +10,7 @@ $mypostcontent = "
 It is a set of commands and menus through which user interacts with an application.It is concentrated on how does it make the user feel and it aims to predict user's intentions.</p>
 <p class=\"mysposttitle\">UX - user experience</p>
 <p>It is concetrated on the way user interact with an application and user's journey within the program. User experience user's feelings towards using a product.</p>
-<img scr=\"/img/ux.png\">
+<img src=\"/img/ux.png\">
 <br>
 <p class=\"mysposttitle\">Adaptive design</p>
 <p>With adaptive design there isn’t one layout that always changes. Instead, there are several distinct layouts for multiple screen sizes, and the layout used depends on the screen size used.<br>
